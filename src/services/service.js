@@ -1,5 +1,6 @@
 export default {
-  fetchMovies(){
-    return firebase.databese().ref("/movies").once('value');
+  fetchMovies(cb){
+    firebase.database().ref
+    return firebase.databese().ref('/movies').once('value');
   }
 }
